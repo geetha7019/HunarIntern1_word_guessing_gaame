@@ -1,0 +1,5 @@
+import pyscreenshot
+image = pyscreenshot.grab()
+image.show()
+image.save("full_screen_screenshot.png")
+partial_image = pyscreenshot.grab(bbox=(10, 10, 500, 500))
